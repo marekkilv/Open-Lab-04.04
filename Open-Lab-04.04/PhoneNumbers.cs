@@ -6,7 +6,7 @@ namespace Open_Lab_04._04
     {
         public string FormatPhoneNumber(int[] numbers)
         {
-            throw new NotImplementedException();
+            String.Format("{0:(###) ###-####}", 8005551212);
         }
     }
 }
